@@ -67,7 +67,7 @@ custom_logo: #/uploads/custom-logo.jpg
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: ture
+  sidebar: false
   post: ture
   language: deed.zh
 
@@ -152,6 +152,9 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  Telegram: https://t.me/water_water_water_2077 || fab fa-telegram
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss
 
 social_icons:
   enable: true
@@ -280,10 +283,10 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  Twitter: https://twitter.com/gpRDv2nEWyWAZug || fab fa-twitter
-  Telegram: https://t.me/water_water_water_2077 || fab fa-telegram
+  #Twitter: https://twitter.com/gpRDv2nEWyWAZug || fab fa-twitter
+  #Telegram: https://t.me/water_water_water_2077 || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  RSS: /atom.xml || fa fa-rss
+  #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
