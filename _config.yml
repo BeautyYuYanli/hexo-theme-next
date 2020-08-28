@@ -83,13 +83,17 @@ creative_commons:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  aboutme: /aboutme/ || fa fa-user
-  messageboard: /messageboard/ || fa fa-user
-  tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-th
+  #tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
+  算法: /categories/算法 || fa fa-terminal
+  创作: /categories/创作 || fa fa-pen
+  生活: /categories/生活 || fa fa-coffee
+  其他: /categories/其他 || fa fa-th
   archives: /archives/ || fa fa-archive
+  关于我: /aboutme/ || fa fa-user
+  留言板: /messageboard/ || fa fa-comment
   #schedule: /schedule/ || fa fa-calendar
-  sitemap: /sitemap.xml || fa fa-sitemap
+  #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -147,6 +151,7 @@ social:
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/gpRDv2nEWyWAZug || fab fa-twitter
+  Bilibili: https://space.bilibili.com/10725385 || fas fa-tv
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
@@ -361,11 +366,11 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
-    dark: tomorrow-night
+    light: a11y-dark
+    dark: a11y-dark
   prism:
-    light: prism
-    dark: prism-dark
+    light: prism-okaidia
+    dark: prism-okaidia
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -398,8 +403,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/beautyyuyanli
   title: Follow me on GitHub
 
 
@@ -880,9 +885,9 @@ vendors:
   fontawesome:
 
   # Prism
-  prism:
-  prism_autoloader:
-  prism_line_numbers:
+  prism: https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/prism.min.js
+  prism_autoloader: https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/autoloader/prism-autoloader.min.js
+  prism_line_numbers: https://cdnjs.cloudflare.com/ajax/libs/prism/1.21.0/plugins/line-numbers/prism-line-numbers.min.js
 
   # MathJax
   mathjax:
